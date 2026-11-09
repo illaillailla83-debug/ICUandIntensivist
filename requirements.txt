@@ -1,0 +1,5 @@
+# Python 3.12 (versions used for the published results)
+osmium==4.3.2
+matplotlib==3.11.2
+numpy==2.5.4
+pypdf==6.21.4

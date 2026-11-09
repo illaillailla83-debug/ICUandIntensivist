@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>khqa 중환자실 지표 기록 도구</title>
+<style>
+  body { font-family: "Malgun Gothic", sans-serif; max-width: 760px; margin: 2em auto; line-height: 1.6; padding: 0 1em; }
+  a.bm { display: inline-block; padding: .5em 1em; margin: .3em; border-radius: 6px; background: #1f5fa8; color: #fff; text-decoration: none; font-weight: bold; }
+  a.bm.copy { background: #2e7d32; }
+  a.bm.clear { background: #9e2a2a; }
+  code { background: #f2f2f2; padding: 0 .3em; }
+  li { margin: .3em 0; }
+</style>
+</head>
+<body>
+<h1>khqa.kr 중환자실 지표 기록 도구</h1>
+
+<p>아래 버튼 3개를 각각 <b>마우스로 끌어서 브라우저 북마크바에 놓으세요</b>. 북마크바가 안 보이면 Ctrl+Shift+B를 누르세요.</p>
+
+<p>
+  <a class="bm" id="bm-rec" href="#">① ICU 기록</a>
+  <a class="bm copy" id="bm-copy" href="#">② ICU 전체복사</a>
+  <a class="bm clear" id="bm-clear" href="#">③ ICU 초기화</a>
+</p>
+
+<h2>사용법</h2>
+<ol>
+  <li>khqa.kr에서 평가항목 <b>중환자실</b>로 검색한 뒤 병원 상세 화면을 엽니다.</li>
+  <li>북마크바의 <b>① ICU 기록</b>을 누릅니다. 병원명과 '전담전문의 1인당 병상' 값이 알림창에 뜹니다. 화면 값과 같은지 보고 확인을 누릅니다.
+    <ul>
+      <li>같은 병원을 다시 기록하면 덮어씁니다(중복 안 생김).</li>
+      <li>기록은 이 브라우저의 khqa.kr 저장소(localStorage)에 쌓입니다.</li>
+    </ul>
+  </li>
+  <li><code>docs/khqa_checklist.csv</code>의 병원을 차례로 반복합니다.</li>
+  <li><b>30–50곳마다</b> <b>② ICU 전체복사</b>를 누르고, 엑셀 새 시트에 붙여넣어 저장하세요(브라우저 데이터가 지워질 때 대비).</li>
+  <li>마지막에 ② 전체복사 → 엑셀에 붙여넣기 → <code>data/raw/khqa_manual_2026-11/khqa_icu_manual.xlsx</code>(또는 .csv)로 저장합니다.</li>
+  <li>저장한 것을 확인한 뒤에만 ③ 초기화를 누르세요.</li>
+</ol>
+
+<h2>기록되는 열</h2>
+<p><code>asmYr, ykiho, yadmNm, grade, icu12010101(해당병원 전담전문의 1인당 병상), icu12010201(동일종별 평균), icu12010301(전체 평균), icu12020101(간호사 1인당 병상), icu12030101(장비·시설 수), icu12080101(감염관리 수행), recorded_at</code></p>
+<p>값이 비어 있으면 페이지에 그 값이 없는 것입니다. 전담전문의가 없는 병원일 가능성이 있으니 그대로 두세요. 해석은 분석 단계에서 합니다.</p>
+
+<script>
+// 각 북마크릿 원본 코드 (사람이 읽을 수 있게 둠)
+var REC = function () {
+  // let/const로 선언돼 window 속성이 아닐 수도 있어 전역 식별자부터 확인
+  var d = (typeof asmDtlInfmData !== 'undefined') ? asmDtlInfmData : window.asmDtlInfmData;
+  if (!d || !d.ykiho) { alert('이 페이지에서 평가 데이터(asmDtlInfmData)를 찾지 못했습니다. 병원 상세 화면에서 눌러주세요.'); return; }
+  if (d.asmCzitmNm !== '중환자실' && !confirm('이 페이지의 평가항목은 [' + d.asmCzitmNm + '] 입니다. 그래도 기록할까요?')) return;
+  var f = ['asmYr','ykiho','yadmNm','grade','icu12010101','icu12010201','icu12010301','icu12020101','icu12030101','icu12080101'];
+  var vals = f.map(function (k) { var v = d[k]; return v == null ? '' : String(v).replace(/[\t\r\n]/g, ' '); });
+  vals.push(new Date().toISOString());
+  var K = 'icuRec', s = JSON.parse(localStorage.getItem(K) || '{}'), isNew = !s[d.ykiho];
+  s[d.ykiho] = vals.join('\t');
+  localStorage.setItem(K, JSON.stringify(s));
+  alert((isNew ? '기록됨' : '덮어씀') + ' [누적 ' + Object.keys(s).length + '곳]\n' + d.yadmNm + ' (등급 ' + d.grade + ')\n전담전문의 1인당 병상: ' + (d.icu12010101 == null ? '(값 없음)' : d.icu12010101));
+};
+var COPY = function () {
+  var s = JSON.parse(localStorage.getItem('icuRec') || '{}'), keys = Object.keys(s);
+  var h = ['asmYr','ykiho','yadmNm','grade','icu12010101','icu12010201','icu12010301','icu12020101','icu12030101','icu12080101','recorded_at'].join('\t');
+  var t = h + '\n' + keys.map(function (k) { return s[k]; }).join('\n');
+  var a = document.createElement('textarea'); a.value = t; document.body.appendChild(a); a.select(); document.execCommand('copy'); a.remove();
+  alert(keys.length + '곳을 클립보드에 복사했습니다. 엑셀에 붙여넣으세요.');
+};
+var CLEAR = function () {
+  var s = JSON.parse(localStorage.getItem('icuRec') || '{}');
+  if (confirm('기록된 ' + Object.keys(s).length + '곳을 삭제합니다. 엑셀에 저장을 마쳤나요?')) { localStorage.removeItem('icuRec'); alert('초기화했습니다.'); }
+};
+function toBm(fn) { return 'javascript:' + encodeURIComponent('(' + fn.toString() + ')();void 0;'); }
+document.getElementById('bm-rec').href = toBm(REC);
+document.getElementById('bm-copy').href = toBm(COPY);
+document.getElementById('bm-clear').href = toBm(CLEAR);
+</script>
+</body>
+</html>

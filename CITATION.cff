@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article below."
+title: "Geographical access to intensivist-staffed intensive care in an ageing population: code and data"
+type: software
+license: MIT
+repository-code: "https://github.com/illaillailla83-debug/ICUandIntensivist"
+authors:
+  - family-names: Baik
+    given-names: Seung Min
+    orcid: "https://orcid.org/0000-0003-1051-6775"
+    affiliation: "Ewha Womans University Mokdong Hospital"
+  - family-names: Lee
+    given-names: Jae-Myeong
+    orcid: "https://orcid.org/0000-0001-5494-0653"
+    affiliation: "Korea University Anam Hospital"
+  - family-names: Hong
+    given-names: Kyung Sook
+    orcid: "https://orcid.org/0000-0002-8022-5693"
+    affiliation: "Ewha Womans University Seoul Hospital"
+preferred-citation:
+  type: article
+  title: "Geographical access to intensivist-staffed intensive care in an ageing population: a nationwide travel-time analysis of South Korea"
+  authors:
+    - family-names: Baik
+      given-names: Seung Min
+    - family-names: Lee
+      given-names: Jae-Myeong
+    - family-names: Hong
+      given-names: Kyung Sook
+  journal: "Critical Care"
+  # [CHECK at publication] year, volume, article number, doi
