@@ -1,0 +1,7 @@
+.env
+__pycache__/
+data/clean/road_graph_osm.pkl
+data/raw/osm_*/
+data/raw/admdongkor_*/
+data/raw/hira_2026-10/
+data/raw/kosis_*/
