@@ -1,0 +1,22 @@
+# Table 3. Population beyond 60 min of an ICU with a dedicated intensivist under ageing scenarios and policy alternatives
+
+| Panel | Year / alternative | Projection variant / facilities | All ages, n (%) | Aged ≥65 y, n (%) | Aged ≥80 y, n (%) |
+|---|---|---|---|---|---|
+| A | 2026 | Observed | 1,906,141 (3.7) | 647,370 (5.7) | 179,646 (6.9) |
+| A | 2030 | Low | 1,892,070 (3.8) | 728,425 (5.5) | 200,336 (6.5) |
+| A | 2030 | Medium | 1,910,101 (3.8) | 735,656 (5.5) | 204,411 (6.5) |
+| A | 2030 | High | 1,926,665 (3.8) | 741,427 (5.6) | 207,725 (6.5) |
+| A | 2035 | Low | 1,868,520 (3.8) | 829,440 (5.5) | 234,650 (6.0) |
+| A | 2035 | Medium | 1,911,055 (3.8) | 847,001 (5.5) | 244,363 (6.1) |
+| A | 2035 | High | 1,950,885 (3.8) | 862,197 (5.5) | 253,001 (6.1) |
+| B (2026, >60 min) | Current (2026) | — | 1,906,141 | 647,370 | — |
+| B (2026, >60 min) | Upgrade all public hospitals with ICU | 47 | 559,590 (−71%) | 214,685 (−67%) | — |
+| B (2026, >60 min) | Upgrade all regional medical centres | 26 | 617,854 (−68%) | 241,086 (−63%) | — |
+| B (2026, >60 min) | Upgrade designated regional/community responsible hospitals | 36 | 584,919 (−69%) | 223,606 (−65%) | — |
+| B (2026, >60 min) | …restricted to ICUs with ≥10 beds | 29 | 942,526 (−51%) | 329,463 (−49%) | — |
+| B (2026, >60 min) | Optimal selection (ICU ≥10 beds), 5 hospitals | 5 | 540,080 (−72%) | 226,173 (−65%) | — |
+| B (2026, >60 min) | Optimal selection (ICU ≥10 beds), 10 hospitals | 10 | 351,854 (−82%) | 143,136 (−78%) | — |
+| B (2026, >60 min) | Optimal selection (ICU ≥20 beds), 10 hospitals | 10 | 439,129 (−77%) | 185,336 (−71%) | — |
+| B (2026, >60 min) | Upper bound: upgrade all 220 ICUs | 220 | 176,473 (−91%) | 73,810 (−89%) | — |
+
+Panel A: facilities and travel times held at 2026; October 2026 age structure of each administrative dong scaled by province- and age-specific growth from the 2022-based population projections (Statistics Korea). Panel B: 2026 population; an alternative assumes a dedicated intensivist is staffed in existing ICUs of the listed hospitals; optimal selection = greedy maximal coverage of residents aged ≥65 y. Responsible hospitals: Ministry of Health and Welfare designation list, March 2024. Unconnected islands excluded from reductions.

@@ -1,0 +1,29 @@
+﻿code,hospital_en,hospital_ko,province,name_source,in_table_S3
+H01,St. Carollo Hospital,성가롤로병원,Jeonnam,official,yes
+H02,Andong Sungso Hospital,안동성소병원,Gyeongbuk,official,yes
+H03,Haenam Woori General Hospital,해남우리종합병원,Jeonnam,romanised,yes
+H04,Namwon Medical Center,전북특별자치도 남원의료원,Jeonbuk,official,yes
+H05,K-COMWEL Taebaek Hospital,근로복지공단 태백병원,Gangwon,official,yes
+H06,MunGyeong Jeil Hospital,의료법인동춘의료재단문경제일병원,Gyeongbuk,official,yes
+H07,Geoboong Baik Hospital,의료법인 거붕 백병원,Gyeongnam,official,yes
+H08,Koheung General Hospital,의료법인영성의료재단 고흥종합병원,Jeonnam,official,yes
+H09,Chungcheongnam-do Seosan Medical Center,충청남도 서산의료원,Chungnam,official,yes
+H10,Samcheok Medical Center,강원특별자치도삼척의료원,Gangwon,romanised,yes
+H11,Onjae Hospital,온재병원,Gangwon,romanised,yes
+H12,Gyeonggi Provincial Medical Center Pocheon Hospital,경기도의료원포천병원,Gyeonggi,romanised,yes
+H13,Yeongwol Medical Center,강원특별자치도영월의료원,Gangwon,romanised,yes
+H14,Muan Hospital,의료법인대송의료재단 무안병원,Jeonnam,official,yes
+H15,Gimcheon Medical Center,경상북도김천의료원,Gyeongbuk,romanised,yes
+H16,Yeongju Red Cross Hospital,영주적십자병원,Gyeongbuk,romanised,yes
+H17,Mokpo Hankook Hospital,목포한국병원,Jeonnam,official,yes
+H18,Yeungnam University Yeongcheon Hospital,영남대학교의과대학부속영천병원,Gyeongbuk,official,yes
+H19,Konkuk University Chungju Hospital,건국대학교 충주병원,Chungbuk,official,yes
+H20,Jeongeup Hankook Hospital,정읍한국병원,Jeonbuk,official,yes
+H21,Donghae Dongin Hospital,의료법인 동해동인병원,Gangwon,romanised,no
+H22,Pocheon Woori Hospital,의료법인 일심의료재단 포천우리병원,Gyeonggi,romanised,no
+H23,Nazareth General Hospital,나사렛종합병원,Daegu,romanised,no
+H24,Chungcheongnam-do Hongseong Medical Center,충청남도 홍성의료원,Chungnam,official,no
+H25,Suncheon Hankook Hospital,의료법인한국의료재단 순천한국병원,Jeonnam,romanised,no
+H26,K-COMWEL Jeongseon Hospital,근로복지공단 정선병원,Gangwon,official,no
+H27,Gwangyang Sarang Hospital,광양사랑병원,Jeonnam,romanised,no
+H28,Hongcheon Asan Hospital,홍천아산병원,Gangwon,official,no

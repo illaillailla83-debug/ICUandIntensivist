@@ -1,0 +1,20 @@
+start 2026-11-03T23:17:00+09:00
+image ghcr.io/project-osrm/osrm-backend:v6.0.0 sha256:729461bcc9ae9e6aafa92c0f93db9b060a32e85d5e72092c01ae4a4a9f1eb564
+pbf sha256 523cbb385d81ff81aa299dbcda3202ec8124449330beec1bbde7f0aa7df8c4da
+ok (48s): osrm-extract -p /opt/car.lua -t 24 /data/kr.osm.pbf
+[2026-11-03T14:17:47.852138620] [info] Writing edge-based-graph edges       ... 
+[2026-11-03T14:17:48.083334413] [info] Processed 8270275 edges
+[2026-11-03T14:17:48.083338723] [info] Expansion: 313052 nodes/sec and 138149 edges/sec
+[2026-11-03T14:17:50.135381446] [info] RAM: peak bytes used: 5320482816
+ok (23s): osrm-partition /data/kr.osrm
+[2026-11-03T14:18:13.461369781] [info] Level 2 #cells 1572 #boundary nodes 67471, sources: avg. 28, destinations: avg. 37, entries: 2000226 (16001808 bytes)
+[2026-11-03T14:18:13.461584412] [info] Level 3 #cells 98 #boundary nodes 8702, sources: avg. 58, destinations: avg. 70, entries: 461915 (3695320 bytes)
+[2026-11-03T14:18:13.461601936] [info] Level 4 #cells 4 #boundary nodes 499, sources: avg. 82, destinations: avg. 97, entries: 44958 (359664 bytes)
+[2026-11-03T14:18:13.462867143] [info] RAM: peak bytes used: 2032025600
+ok (5s): osrm-customize /data/kr.osrm
+[2026-11-03T14:18:17.937848468] [warn] Level 2 unreachable boundary nodes per cell: 0.0604326 sources, 0.086514 destinations
+[2026-11-03T14:18:17.938039208] [warn] Level 3 unreachable boundary nodes per cell: 0.479592 sources, 0.72449 destinations
+[2026-11-03T14:18:17.938062501] [warn] Level 4 unreachable boundary nodes per cell: 5 sources, 6.25 destinations
+[2026-11-03T14:18:18.610612097] [info] RAM: peak bytes used: 1976373248
+9809a111a8fc8c465c2d6ef3208938a2a7c35fab0d3cda407ffa7ff187a96477  /opt/car.lua
+end 2026-11-03T23:18:19+09:00

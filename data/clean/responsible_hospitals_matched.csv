@@ -1,0 +1,88 @@
+﻿구분,시도,진료권,기관명_보도자료,검색키,요양기관명,종별,시군구,암호화요양기호,ICU보유,성인ICU병상,전담전문의,후보수
+권역,서울,서울,서울대학교병원,서울대학교병원,서울대학교병원,상급종합,종로구,JDQ4MTg4MSM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQzNjE4MzIjODEjJDEjJDYjJDgz,Y,106,Y,1
+권역,부산,부산,부산대학교병원,부산대학교병원,부산대학교병원,상급종합,부산서구,JDQ4MTAxMiM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQyNjEyMjIjNDEjJDEjJDgjJDgz,Y,116,Y,1
+권역,대구,대구,경북대학교병원,경북대학교병원,경북대학교병원,상급종합,대구중구,JDQ4MTYyMiM4MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQyNjEwMDIjNzEjJDEjJDgjJDgz,Y,88,Y,2
+권역,인천,인천,가천대길병원,길병원,의료법인 길의료재단 길병원,상급종합,인천남동구,JDQ4MTYyMiM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQyIyQzIyQwMCQyNjE0ODEjODEjJDEjJDYjJDgz,Y,126,Y,2
+권역,광주,광주,전남대학교병원,전남대학교병원,전남대학교병원,상급종합,광주동구,JDQ4MTYyMiM3MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQyNjEwMDIjNTEjJDEjJDYjJDgz,Y,110,Y,2
+권역,대전,대전,충남대학교병원,충남대학교병원,충남대학교병원,상급종합,대전중구,JDQ4MTYyMiM2MSMkMSMkMiMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQyNjEwMDIjNjEjJDEjJDgjJDgz,Y,84,Y,1
+권역,울산,울산,울산대학교병원,울산대학교병원,학교법인 울산공업학원 울산대학교병원,상급종합,울산동구,JDQ4MTYyMiM4MSMkMSMkNCMkODkkMzgxMzUxIzExIyQxIyQzIyQ5OSQyNjE4MzIjNDEjJDEjJDgjJDgz,Y,97,Y,1
+권역,세종,세종,세종충남대학교병원,세종충남대학교병원,세종충남대학교병원,종합병원,세종시,JDQ4MTYyMiM2MSMkMSMkMiMkODkkMzgxMzUxIzExIyQxIyQzIyQ2MiQyNjEwMDIjNjEjJDEjJDQjJDgz,Y,24,Y,1
+권역,경기,경기,분당서울대학교병원,분당서울대학교병원,분당서울대학교병원,상급종합,성남분당구,JDQ4MTYyMiM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQwMyQyNjEwMDIjNTEjJDEjJDYjJDgz,Y,79,Y,1
+권역,강원,강원,강원대학교병원,강원대학교병원,강원대학교병원,종합병원,춘천시,JDQ4MTYyMiM1MSMkMSMkNCMkODkkMzgxMzUxIzExIyQxIyQzIyQ5OSQyNjEwMDIjNTEjJDEjJDYjJDgz,Y,38,Y,1
+권역,충북,충북,충북대학교병원,충북대학교병원,충북대학교병원,상급종합,청주서원구,JDQ4MTYyMiM1MSMkMSMkOCMkODkkMzgxMzUxIzExIyQxIyQzIyQ4OSQyNjEyMjIjODEjJDEjJDIjJDgz,Y,78,Y,1
+권역,충남,충남,단국대병원,단국대학교의과대학부속병원,단국대학교의과대학부속병원,상급종합,천안동남구,JDQ4MTYyMiM2MSMkMSMkMiMkODkkMzgxMzUxIzExIyQxIyQzIyQ4OSQ0NjEwMDIjODEjJDEjJDYjJDgz,Y,67,Y,1
+권역,전북,전북,전북대학교병원,전북대학교병원,전북대학교병원,상급종합,전주덕진구,JDQ4MTYyMiM2MSMkMSMkNiMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQyNjEwMDIjNDEjJDEjJDQjJDgz,Y,84,Y,1
+권역,전남,전남,화순전남대학교병원,화순전남대학교병원,화순전남대학교병원,상급종합,화순군,JDQ4MTYyMiM3MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ2MiQ0NjEwMDIjODEjJDEjJDIjJDgz,Y,32,Y,1
+권역,경북,경북,칠곡경북대학교병원,칠곡경북대학교병원,칠곡경북대학교병원,상급종합,대구북구,JDQ4MTYyMiM4MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ2MiQzNjEyMjIjNzEjJDEjJDgjJDgz,Y,45,Y,1
+권역,경남,경남,경상국립대학교병원,경상국립대학교병원,경상국립대학교병원,상급종합,진주시,JDQ4MTYyMiM4MSMkMSMkNCMkODkkMzgxMzUxIzExIyQxIyQzIyQ5OSQyNjEwMDIjNjEjJDEjJDQjJDgz,Y,66,Y,2
+권역,제주,제주,제주대학교병원,제주대학교병원,제주대학교병원,종합병원,제주시,JDQ4MTYyMiM4MSMkMSMkOCMkODkkMzgxMzUxIzExIyQxIyQzIyQ4OSQyNjE0ODEjNTEjJDEjJDYjJDgz,Y,38,Y,1
+지역,서울,서울서북,서울적십자병원,서울적십자병원,서울적십자병원,종합병원,종로구,JDQ4MTg4MSM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ4OSQyNjE0ODEjODEjJDEjJDYjJDgz,Y,12,N,1
+지역,서울,서울동북,서울의료원,서울의료원,서울특별시서울의료원,종합병원,중랑구,JDQ4MTg4MSM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQyIyQ3IyQwMCQyNjEyMjIjNjEjJDEjJDgjJDgz,Y,38,Y,1
+지역,서울,서울서남,서울특별시서남병원,서남병원,서울특별시서남병원,종합병원,양천구,JDQ4MTg4MSM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQyIyQ3IyQwMCQzNjE4MzIjNzEjJDEjJDgjJDgz,Y,18,N,1
+지역,서울,서울동남,서울특별시보라매병원,보라매병원,서울특별시보라매병원,종합병원,동작구,JDQ4MTg4MSM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ5OSQzNjE0ODEjODEjJDEjJDYjJDgz,Y,39,Y,1
+지역,부산,부산중부,부산광역시의료원,부산광역시의료원,부산광역시의료원,종합병원,부산연제구,JDQ4MTAxMiM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ5OSQyNjE0ODEjODEjJDEjJDYjJDgz,Y,27,N,1
+지역,대구,대구서남,대구의료원,대구의료원,대구의료원,종합병원,대구서구,JDQ4MTYyMiM4MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ4OSQ0NjE0ODEjNDEjJDEjJDgjJDgz,Y,19,N,1
+지역,인천,인천서북,나은병원,나은병원,의료법인루가의료재단 나은병원,종합병원,인천서해구,JDQ4MTYyMiM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ5MiQyNjEyMjIjNjEjJDEjJDAjJDgz,Y,30,Y,1
+지역,인천,인천동북,인천세종병원,인천세종병원,인천세종병원,종합병원,인천계양구,JDQ4MTYyMiM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQ3IyQ5OSQzNjEyMjIjNzEjJDEjJDgjJDgz,Y,24,Y,1
+지역,인천,인천중부,인천광역시의료원,인천광역시의료원,인천광역시의료원,종합병원,인천제물포구,JDQ4MTYyMiM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQyNjEwMDIjNjEjJDEjJDQjJDgz,Y,17,N,2
+지역,인천,인천남부,인천적십자병원,인천적십자병원,인천적십자병원,종합병원,인천연수구,JDQ4MTYyMiM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQ3IyQ2MiQ0NjE0ODEjODEjJDEjJDIjJDgz,Y,8,N,1
+지역,광주,광주동남,광주기독병원,광주기독병원,광주기독병원,종합병원,광주남구,JDQ4MTYyMiM3MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQyNjE4MzIjNDEjJDEjJDQjJDgz,Y,29,Y,1
+지역,울산,울산서남,동강병원,동강병원,의료법인 동강의료재단 동강병원,종합병원,울산중구,JDQ4MTYyMiM4MSMkMSMkNCMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQ0NjE0ODEjODEjJDEjJDIjJDgz,Y,37,N,3
+지역,울산,울산동북,울산병원,울산병원,울산병원,종합병원,울산남구,JDQ4MTYyMiM4MSMkMSMkNCMkODkkMzgxMzUxIzExIyQyIyQzIyQwMCQyNjEyMjIjNDEjJDEjJDgjJDgz,Y,20,N,2
+지역,경기,수원권,경기도의료원수원병원,경기도의료원수원병원,경기도의료원 수원병원,종합병원,수원장안구,JDQ4MTYyMiM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQxMyQ0NjE0ODEjODEjJDEjJDIjJDgz,Y,9,Y,1
+지역,경기,성남권,성남시의료원,성남시의료원,성남시의료원,종합병원,성남수정구,JDQ4MTYyMiM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQyIyQ3IyQwMCQzNjEyMjIjNjEjJDEjJDAjJDgz,Y,30,Y,1
+지역,경기,의정부권,경기도의료원의정부병원,경기도의료원의정부병원,경기도의료원의정부병원,종합병원,의정부시,JDQ4MTYyMiM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ5OSQ0NjE0ODEjNzEjJDEjJDgjJDgz,Y,6,N,1
+지역,경기,안양권,한림대성심병원,한림대학교성심병원,한림대학교성심병원,상급종합,안양동안구,JDQ4MTYyMiM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ4MiQyNjEyMjIjNzEjJDEjJDgjJDgz,Y,92,Y,1
+지역,경기,부천권,부천세종병원,부천세종병원,부천세종병원,종합병원,부천소사구,JDQ4MTYyMiM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ4OSQyNjEyMjIjNDEjJDEjJDgjJDgz,Y,24,Y,1
+지역,경기,평택권,경기도의료원안성병원,경기도의료원안성병원,경기도의료원 안성병원,종합병원,안성시,JDQ4MTYyMiM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQyIyQzIyQwMCQzNjE0ODEjNDEjJDEjJDgjJDgz,Y,15,N,1
+지역,경기,안산권,근로복지공단안산병원,근로복지공단안산병원,근로복지공단안산병원,종합병원,안산상록구,JDQ4MTYyMiM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQ3IyQ3OSQyNjEyMjIjNDEjJDEjJDQjJDgz,Y,19,N,1
+지역,경기,고양권,국민건강보험일산병원,국민건강보험공단일산병원,국민건강보험공단일산병원,종합병원,고양일산동구,JDQ4MTYyMiM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ4MiQzNjE4MzIjODEjJDEjJDIjJDgz,Y,63,Y,1
+지역,경기,파주시,경기도의료원파주병원,경기도의료원파주병원,경기도의료원파주병원,종합병원,파주시,JDQ4MTYyMiM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQyIyQzIyQwMCQyNjEyMjIjNjEjJDEjJDQjJDgz,Y,8,N,1
+지역,경기,이천권,경기도의료원이천병원,경기도의료원이천병원,경기도의료원 이천병원,종합병원,이천시,JDQ4MTYyMiM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQ3IyQ4OSQzNjEwMDIjNDEjJDEjJDgjJDgz,Y,10,Y,1
+지역,경기,포천시,경기도의료원포천병원,경기도의료원포천병원,경기도의료원포천병원,종합병원,포천시,JDQ4MTYyMiM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQyIyQzIyQwMCQyNjEwMDIjNzEjJDEjJDgjJDgz,Y,10,N,1
+지역,충남,천안권,천안의료원,천안의료원,충청남도 천안의료원,종합병원,천안동남구,JDQ4MTYyMiM2MSMkMSMkMiMkODkkMzgxMzUxIzExIyQxIyQzIyQ4OSQzNjEwMDIjNjEjJDEjJDgjJDgz,Y,15,N,1
+지역,충남,공주권,공주의료원,공주의료원,충청남도 공주의료원,종합병원,공주시,JDQ4MTYyMiM2MSMkMSMkMiMkODkkMzgxMzUxIzExIyQxIyQzIyQ4OSQyNjE4MzIjNDEjJDEjJDQjJDgz,Y,16,N,1
+지역,충남,서산권,서산의료원,서산의료원,충청남도 서산의료원,종합병원,서산시,JDQ4MTYyMiM2MSMkMSMkMiMkODkkMzgxMzUxIzExIyQxIyQzIyQ4OSQzNjEyMjIjNjEjJDEjJDAjJDgz,Y,10,N,1
+지역,충남,논산권,백제병원,백제병원,의료법인 백제병원,종합병원,논산시,JDQ4MTYyMiM2MSMkMSMkMiMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQzNjEyMjIjNzEjJDEjJDgjJDgz,Y,29,N,1
+지역,충남,홍성권,홍성의료원,홍성의료원,충청남도 홍성의료원,종합병원,홍성군,JDQ4MTYyMiM2MSMkMSMkMiMkODkkMzgxMzUxIzExIyQxIyQzIyQ4OSQyNjEyMjIjNDEjJDEjJDgjJDgz,Y,25,N,1
+지역,충북,청주권,청주의료원,청주의료원,충청북도 청주의료원,종합병원,청주서원구,JDQ4MTYyMiM1MSMkMSMkOCMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQyNjEwMDIjNTEjJDEjJDIjJDgz,Y,24,N,1
+지역,충북,충주권,충주의료원,충주의료원,충청북도 충주의료원,종합병원,충주시,JDQ4MTYyMiM1MSMkMSMkOCMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQzNjEyMjIjNTEjJDEjJDYjJDgz,Y,12,N,1
+지역,충북,제천권,명지병원,명지병원,의료법인 명지의료재단 명지병원,종합병원,제천시,JDQ4MTYyMiM1MSMkMSMkOCMkODkkMzgxMzUxIzExIyQxIyQzIyQ5OSQyNjEyMjIjNjEjJDEjJDQjJDgz,Y,20,Y,1
+지역,강원,원주권,원주의료원,원주의료원,강원특별자치도원주의료원,종합병원,원주시,JDQ4MTYyMiM1MSMkMSMkNCMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQ0NjE0ODEjNjEjJDEjJDgjJDgz,Y,20,N,1
+지역,강원,영월권,영월의료원,영월의료원,강원특별자치도영월의료원,종합병원,영월군,JDQ4MTYyMiM1MSMkMSMkNCMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQzNjE4MzIjODEjJDEjJDIjJDgz,Y,12,N,1
+지역,강원,강릉시,강릉의료원,강릉의료원,강원특별자치도강릉의료원,종합병원,강릉시,JDQ4MTYyMiM1MSMkMSMkNCMkODkkMzgxMzUxIzExIyQxIyQzIyQ4OSQzNjEwMDIjODEjJDEjJDYjJDgz,Y,8,N,1
+지역,강원,동해권,삼척의료원,삼척의료원,강원특별자치도삼척의료원,종합병원,삼척시,JDQ4MTYyMiM1MSMkMSMkNCMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQzNjEyMjIjNDEjJDEjJDQjJDgz,Y,10,N,1
+지역,강원,속초권,속초의료원,속초의료원,강원특별자치도속초의료원,종합병원,속초시,JDQ4MTYyMiM1MSMkMSMkNCMkODkkMzgxMzUxIzExIyQxIyQzIyQ4OSQzNjE0ODEjNDEjJDEjJDgjJDgz,Y,8,N,1
+지역,전북,전주권,예수병원,예수병원,재단법인예수병원유지재단예수병원,종합병원,전주완산구,JDQ4MTYyMiM2MSMkMSMkNiMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQyNjEyMjIjODEjJDEjJDIjJDgz,Y,43,Y,1
+지역,전북,군산시,군산의료원,군산의료원,전북특별자치도 군산의료원,종합병원,군산시,JDQ4MTYyMiM2MSMkMSMkNiMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQ0NjEwMDIjNjEjJDEjJDQjJDgz,Y,22,N,1
+지역,전북,익산시,원광대병원,원광대학교병원,원광대학교병원,상급종합,익산시,JDQ4MTYyMiM2MSMkMSMkNiMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQzNjEyMjIjNDEjJDEjJDgjJDgz,Y,93,Y,1
+지역,전북,정읍권,정읍아산병원,정읍아산병원,재단법인 아산사회복지재단 정읍아산병원,종합병원,정읍시,JDQ4MTYyMiM2MSMkMSMkNiMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQyNjE4MzIjNjEjJDEjJDgjJDgz,Y,10,N,1
+지역,전북,남원권,남원의료원,남원의료원,전북특별자치도 남원의료원,종합병원,남원시,JDQ4MTYyMiM2MSMkMSMkNiMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQ0NjE0ODEjNzEjJDEjJDgjJDgz,Y,10,N,1
+지역,전남,목포권,목포시의료원,목포시의료원,목포시의료원,종합병원,목포시,JDQ4MTYyMiM3MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ5OSQyNjEyMjIjNjEjJDEjJDgjJDgz,N,,,1
+지역,전남,순천권,순천의료원,순천의료원,전라남도 순천의료원,종합병원,순천시,JDQ4MTYyMiM3MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQxMyQzNjE4MzIjODEjJDEjJDIjJDgz,Y,7,N,1
+지역,경북,포항권,포항의료원,포항의료원,경상북도포항의료원,종합병원,포항북구,JDQ4MTYyMiM4MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQzNjE0ODEjNDEjJDEjJDgjJDgz,Y,20,N,1
+지역,경북,경주권,동국대경주병원,동국대&경주,동국대학교의과대학경주병원,종합병원,경주시,JDQ4MTYyMiM4MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ5OSQyNjE0ODEjNTEjJDEjJDYjJDgz,Y,39,Y,1
+지역,경북,안동권,안동의료원,안동의료원,경상북도안동의료원,종합병원,안동시,JDQ4MTYyMiM4MSMkMSMkMCMkODkkMzgxMzUxIzExIyQyIyQzIyQwMCQzNjEwMDIjNDEjJDEjJDgjJDgz,Y,10,N,1
+지역,경북,구미권,김천의료원,김천의료원,경상북도김천의료원,종합병원,김천시,JDQ4MTYyMiM4MSMkMSMkMCMkODkkMzgxMzUxIzExIyQyIyQzIyQwMCQ0NjEwMDIjNjEjJDEjJDAjJDgz,Y,25,N,1
+지역,경북,영주권,영주적십자병원,영주적십자병원,영주적십자병원,종합병원,영주시,JDQ4MTYyMiM4MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ3MiQyNjEwMDIjNTEjJDEjJDYjJDgz,Y,10,N,1
+지역,경북,상주권,상주적십자병원,상주적십자병원,상주적십자병원,종합병원,상주시,JDQ4MTYyMiM4MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ2MiQyNjE0ODEjODEjJDEjJDIjJDgz,Y,10,N,1
+지역,경남,창원권,마산의료원,마산의료원,경상남도마산의료원,종합병원,창원마산합포구,JDQ4MTYyMiM4MSMkMSMkNCMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQyNjEyMjIjODEjJDEjJDYjJDgz,Y,8,N,1
+지역,경남,통영권,통영적십자병원,통영적십자병원,통영적십자병원,병원,통영시,JDQ4MTYyMiM4MSMkMSMkNCMkOTkkMzgxMzUxIzExIyQxIyQzIyQ4OSQyNjEyMjIjNDEjJDEjJDgjJDgz,N,,,1
+지역,경남,김해권,양산부산대학교병원,양산부산대학교병원,양산부산대학교병원,상급종합,양산시,JDQ4MTYyMiM4MSMkMSMkNCMkODkkMzgxMzUxIzExIyQxIyQzIyQ3MiQyNjE0ODEjODEjJDEjJDYjJDgz,Y,75,Y,1
+지역,경남,거창권,거창적십자병원,거창적십자병원,거창적십자병원,병원,거창군,JDQ4MTYyMiM4MSMkMSMkNCMkOTkkMzgxMzUxIzExIyQxIyQzIyQ4OSQzNjEyMjIjNTEjJDEjJDYjJDgz,N,,,1
+지역,제주,서귀포시,서귀포의료원,서귀포의료원,제주특별자치도 서귀포의료원,종합병원,서귀포시,JDQ4MTYyMiM4MSMkMSMkOCMkODkkMzgxMzUxIzExIyQxIyQzIyQ3OSQ0NjEwMDIjNDEjJDEjJDQjJDgz,Y,22,N,1
+미지정,부산,부산서부,,,,,,,,,,0
+미지정,부산,부산동부,,,,,,,,,,0
+미지정,대구,대구동북,,,,,,,,,,0
+미지정,광주,광주광서,,,,,,,,,,0
+미지정,세종,세종,,,,,,,,,,0
+미지정,대전,대전서부,,,,,,,,,,0
+미지정,대전,대전동부,,,,,,,,,,0
+미지정,강원,춘천권,,,,,,,,,,0
+미지정,경기,남양주권,,,,,,,,,,0
+미지정,전남,여수시,,,,,,,,,,0
+미지정,전남,나주권,,,,,,,,,,0
+미지정,전남,해남권,,,,,,,,,,0
+미지정,전남,영광권,,,,,,,,,,0
+미지정,경남,진주권,,,,,,,,,,0
+미지정,제주,제주시,,,,,,,,,,0

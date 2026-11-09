@@ -1,0 +1,17 @@
+2026-11-03T12:52:09 start: 416 targets (0 already done)
+2026-11-03T12:52:38 retry 1/3 JDQ4MTg4MSM1MSMkMSMk… URLError(TimeoutError(10060, '연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다', None, 10060, None))
+2026-11-03T12:53:32 progress 50/416
+2026-11-03T12:54:31 progress 100/416
+2026-11-03T12:55:32 progress 150/416
+2026-11-03T12:56:32 progress 200/416
+2026-11-03T12:57:04 retry 1/3 JDQ4MTYyMiM1MSMkMSMk… URLError(TimeoutError(10060, '연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다', None, 10060, None))
+2026-11-03T12:58:09 retry 1/3 JDQ4MTYyMiM1MSMkMSMk… URLError(TimeoutError(10060, '연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다', None, 10060, None))
+2026-11-03T12:58:19 progress 250/416
+2026-11-03T12:59:20 progress 300/416
+2026-11-03T12:59:44 retry 1/3 JDQ4MTYyMiM3MSMkMSMk… URLError(TimeoutError(10060, '연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다', None, 10060, None))
+2026-11-03T13:00:23 retry 1/3 JDQ4MTYyMiM4MSMkMSMk… URLError(TimeoutError(10060, '연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다', None, 10060, None))
+2026-11-03T13:00:51 retry 1/3 JDQ4MTYyMiM4MSMkMSMk… URLError(TimeoutError(10060, '연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다', None, 10060, None))
+2026-11-03T13:01:31 progress 350/416
+2026-11-03T13:01:55 retry 1/3 JDQ4MTYyMiM4MSMkMSMk… URLError(TimeoutError(10060, '연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다', None, 10060, None))
+2026-11-03T13:02:55 progress 400/416
+2026-11-03T13:03:14 end: failed=0
